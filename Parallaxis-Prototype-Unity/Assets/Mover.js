@@ -4,7 +4,8 @@ var layerPos: int;
 var lastMouseCoordinate = Vector3.zero;
 
 function Start () {
-	//lastMouseCoordinate = Vector3.zero;
+	lastMouseCoordinate.x = Screen.width/2;
+	lastMouseCoordinate.y = Screen.height/2;
 }
 
 function Update () {
@@ -12,6 +13,9 @@ function Update () {
 	var xmag = Mathf.Abs(mouseDelta.x);
 	var ymag = Mathf.Abs(mouseDelta.y);
 	
+	
+	this.transform.position += layerPos * mouseDelta/1000;
+	/*
 	if(xmag > ymag) {
 	//mouse is moving mostly along the x axis
 	
@@ -39,7 +43,7 @@ function Update () {
 	else {
 		// NO MOVEMENT
 		// OR PERFECTLY SIDEWAYs
-		}	
+		}	*/
 		
 	lastMouseCoordinate = Input.mousePosition;
 	

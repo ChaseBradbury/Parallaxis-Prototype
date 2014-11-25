@@ -1,10 +1,10 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Mover.js">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/CharMovement.js">
     <Files>
-      <File FileName="Assets\Mover.js" Line="57" Column="2" />
-      <File FileName="Assets\ConnectionScript.js" Line="1" Column="1" />
-      <File FileName="Assets\Mover.js" Line="57" Column="2" />
+      <File FileName="Assets/Mover.js" Line="58" Column="3" />
+      <File FileName="Assets/CharMovement.js" Line="17" Column="35" />
+      <File FileName="Assets/FollowChar.js" Line="15" Column="4" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

@@ -46,8 +46,9 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\CharMovenent.js" />
+     <Compile Include="Assets\CharMovement.js" />
      <Compile Include="Assets\ConnectionScript.js" />
+     <Compile Include="Assets\FollowChar.js" />
      <Compile Include="Assets\Mover.js" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
